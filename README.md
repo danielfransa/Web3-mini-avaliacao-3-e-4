@@ -1,6 +1,10 @@
 # Web3-mini-avaliacao-3-e-4
 Mini-atividade #4 e #5 - Da aula de Web 3 criado um aplicativo To Do com Django
 
+## Link da descrição da atividade [aqui](https://github.com/danielfransa/FATEC_2023_1SEM_Des_Web_3/blob/main/django_mini_avaliacoes_4_e_5.pdf)
+
+
+## Imagens!
 Página inicial do projeto trazendo todas as tarefas cadastradas:
 
 ![pagina inicial](https://user-images.githubusercontent.com/102123924/236437831-f0de80be-08ab-465a-bf27-35c3af37d36a.png)
@@ -16,6 +20,7 @@ Django Admin ajustado para fazer controle das tarefas:
 <br>
 ![image](https://user-images.githubusercontent.com/102123924/236438642-3cf17302-2a07-4d3d-88f6-121dcd96af1a.png)
 
+## Como rodar o projeto:
 
 Para rodar o projeto criar um ambiente de desenvolvimento com virtualenv:
 
