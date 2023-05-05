@@ -17,6 +17,44 @@ Django Admin ajustado para fazer controle das tarefas:
 ![image](https://user-images.githubusercontent.com/102123924/236438642-3cf17302-2a07-4d3d-88f6-121dcd96af1a.png)
 
 
+Para rodar o projeto criar um ambiente de desenvolvimento com virtualenv:
+
+**Instalar virtualenv**
+
+rodar esse comando no prompt de comando:
+
+`pip install virtualenv`
+
+depois no prompt de comando seguir os passos abaixo:
+
+### Criar e ativar ambiente virtual:
+================================
+
+- virtualenv ambiente1
+- ou digite:
+- python -m virtualenv ambiente1
+- cd ambiente1
+- cd Scripts
+- activate.bat
+
+depois de entra ativar o ambiente colar os arquivos do GIT e rodar o comando abaixo no prompt de comando:
+
+`pip install -r requirements.txt`
+
+Entrar na pasta to_do e executar o comando abaixo para rodar a migrate e o servidor:
+
+- `python manage.py migrate`
+
+- `python manage.py runserver`
+
+No navegador entrar no endereço 127.0.0.1:8000
+
+para o Django Admin ver abaixo:
+
 Senha para o Django Admin é uma senha genérica apenas para fins acadêmicos sendo ela:
-Usuário = Admin
-Senha = 123mudar
+
+Usuário | Senha
+|--------|-------|
+Admin | 123mudar
+
+

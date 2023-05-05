@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style-cadastro.css">
+    <title>Cadastrar</title>
+</head>
+
+<body>
+    {% block content %}
+        <h1>Cadastrar</h1>
+
+        <form method="post">
+            {% csrf_token %}
+            <label for="tarefa">Tarefa:</label>
+            <input type="text" id="tarefa" name="tarefa" required>
+            <label for="inicio">Início:</label>
+            <input type="date" id="inicio" name="inicio">
+            <label for="fim">Fim:</label>
+            <input type="date" id="fim" name="fim" required>
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="">Selecione</option>
+                <option value="Aguardando">Aguardando</option>
+                <option value="Executando">Executando</option>
+                <option value="Concluido">Concluído</option>
+            </select>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    {% endblock %}
+    <br>
+    <a href="/">
+        <button>Voltar</button>
+    </a>
+   
+
+</body>
+
+</html>

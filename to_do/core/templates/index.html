@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Inicial</title>
+</head>
+
+<body>
+
+    {% block content %}
+    <h1>Lista de Tarefas</h1>
+
+    <a href="/cadastro">
+        <button>Cadastrar</button>
+    </a>
+    <br>
+    <ul class="task-list">
+        {% for tarefa in tarefas %}
+        <li class="task-item">
+            <h2>{{ tarefa.tarefa }}</h2>
+            <p>Início: {{ tarefa.inicio }}</p>
+            <p>Fim: {{ tarefa.fim }}</p>
+            <p>Status: {{ tarefa.status }}</p>
+        </li>
+        {% empty %}
+        <p>Nenhuma tarefa encontrada.</p>
+        {% endfor %}
+    </ul>
+
+    {% endblock %}
+
+</body>
+
+</html>
