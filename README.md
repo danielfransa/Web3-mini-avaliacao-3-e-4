@@ -1,5 +1,5 @@
 # Web3-mini-avaliacao-3-e-4
-Mini-atividade #4 e #5 - Da aula de Web 3 criado um aplicativo To Do com Django
+Mini-atividade #4 e #5 - Da aula de Web 3 criando um aplicativo To Do com Django
 
 ## Link da descrição da atividade [aqui](https://github.com/danielfransa/FATEC_2023_1SEM_Des_Web_3/blob/main/django_mini_avaliacoes_4_e_5.pdf)
 
